@@ -10,17 +10,24 @@ const About = ({isDarkMode}) => {
     whileInView={{opacity: 1}}
     transition={{duration: 1}}
     >
-      <motion.h4 
-    initial={{opacity: 0, y: -20}}
-    whileInView={{opacity: 1, y: 0}}
-    transition={{duration: 0.5, delay: 0.3}}
-      className='text-center mb-2 text-lg font-ovo'>Introduction</motion.h4>
-
-      <motion.h2 
-    initial={{opacity: 0, y: -20}}
-    whileInView={{opacity: 1, y: 0}}
-    transition={{duration: 0.5, delay: 0.5}}
-    className='text-center text-5xl font-ovo'>About me</motion.h2>
+      <motion.h4
+             initial={{y: -20, opacity: 0}}
+             whileInView={{y: 0, opacity: 1}}
+             transition={{delay: 0.3, duration: 0.5}}
+             className='text-center mb-2 text-lg font-Ovo'
+           >
+             Introduction
+           </motion.h4>
+     
+           <motion.h2
+             initial={{y: -20, opacity: 0}}
+             whileInView={{y: 0, opacity: 1}}
+             transition={{delay: 0.5, duration: 0.5}}
+             className='text-center text-5xl font-Ovo'
+           >
+             About me
+           </motion.h2>
+     
 
       <motion.div 
     initial={{opacity: 0}}
@@ -32,7 +39,7 @@ const About = ({isDarkMode}) => {
     whileInView={{opacity: 1, scale:1}}
     transition={{duration: 0.6}}
     className='w-64 sm:w-80 rounded-3xl max-w-none'>
-          <Image src={assets.user_image} alt='user' className='w-full rounded-3xl' />
+          <Image src={assets.user_image1} alt='user' className='w-full rounded-3xl' />
         </motion.div>
 
         <motion.div 

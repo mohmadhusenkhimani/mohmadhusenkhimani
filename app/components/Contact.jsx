@@ -39,16 +39,24 @@ const Contact = (isDarkMode) => {
       className='w-full px-[12%] py-10 scroll-mt-20 bg-no-repeat bg-center bg-[length:90%_auto]'
       style={{ backgroundImage: isDarkMode ? 'none' : "url('/footer-bg-color.png')" }}
     >
-        <motion.h4 
-    initial={{y: -20, opacity: 0}}
-    whileInView={{y: 0, opacity: 1}}
-    transition={{delay: 0.3, duration: 0.5}}
-    className='text-center mb-2 text-lg font-Ovo'>Connect with me</motion.h4>
-        <motion.h2 
-    initial={{y: -20, opacity: 0}}
-    whileInView={{y: 0, opacity: 1}}
-    transition={{delay: 0.5, duration: 0.5}}
-    className='text-center text-5xl font-Ovo'>Get in touch</motion.h2>
+       <motion.h4
+              initial={{y: -20, opacity: 0}}
+              whileInView={{y: 0, opacity: 1}}
+              transition={{delay: 0.3, duration: 0.5}}
+              className='text-center mb-2 text-lg font-Ovo'
+            >
+              Connect with me 
+            </motion.h4>
+      
+            <motion.h2
+              initial={{y: -20, opacity: 0}}
+              whileInView={{y: 0, opacity: 1}}
+              transition={{delay: 0.5, duration: 0.5}}
+              className='text-center text-5xl font-Ovo'
+            >
+             Get In Touch
+            </motion.h2>
+      
         <motion.p 
     initial={{opacity: 0}}
     whileInView={{opacity: 1}}
