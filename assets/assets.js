@@ -116,10 +116,10 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'E-Commerce',
+        title: 'Forever E-Commerce',
         description: 'MERN Stack',
         bgImage: '/work-1.png',
-        link: 'https://mohmadhusenkhimani.github.io/dreamithub/'
+        link: 'https://forever-frontend-weld-gamma.vercel.app/'
     },
     {
         title: 'Dream IT HUB',
