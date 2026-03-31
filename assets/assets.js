@@ -116,7 +116,7 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Forever E-Commerce',
+        title: 'Forever Shopping',
         description: 'MERN Stack',
         bgImage: '/work-1.png',
         link: 'https://forever-frontend-weld-gamma.vercel.app/'
