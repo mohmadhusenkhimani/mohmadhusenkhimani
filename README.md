@@ -1,55 +1,42 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Hi 👋, I'm Mohmadhusen Khimani
 
-## Getting Started
+Full-Stack MERN Developer | MCA Student | AI/ML Enthusiast
 
-First, run the development server:
+I'm passionate about building scalable full-stack web applications and continuously improving my software engineering skills.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🚀 About Me
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🎓 MCA Student at LJ University
+💻 MERN Stack Developer
+🤖 Learning Artificial Intelligence & Machine Learning
+📚 Practicing Data Structures & Algorithms
+🌱 Currently building **Fresh Bites – AI-Powered Food Delivery Platform**
+🎯 Seeking Software Development Engineer (SDE) Internship opportunities
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+💻 Tech Stack
 
-## Learn More
+* JavaScript
+* React.js
+* Node.js
+* Express.js
+* MongoDB
+* Python
+* MySQL
+* HTML5
+* CSS3
+* Tailwind CSS
+* Git
+* GitHub
 
-To learn more about Next.js, take a look at the following resources:
+🌐 Portfolio
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+https://mohmadhusenkhimani.vercel.app/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+💼 LinkedIn
 
-## Deploy on Vercel
+https://www.linkedin.com/in/mohmadhusenkhimani/
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📫 Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-## Hi there 👋
-
-<!--
-**mohmadhusenkhimani/mohmadhusenkhimani** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
->>>>>>> 648a0882fac2257d92398bb874285ee2ea6be556
+Email: [khimanimohmadhusen@gmail.com](mailto:khimanimohmadhusen@gmail.com)
