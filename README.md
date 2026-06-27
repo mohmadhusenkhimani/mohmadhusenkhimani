@@ -9,6 +9,7 @@ I'm passionate about building scalable full-stack web applications, solving real
 ## 🚀 About Me
 
 - 🎓 MCA Student at **LJ University** (2025–2027)
+- 💼 MERN Stack Developer Intern at **Maxgen Technologies Pvt. Ltd.**
 - 💻 Full-Stack MERN Developer
 - 🤖 Learning **Artificial Intelligence & Machine Learning**
 - 📚 Practicing **Data Structures & Algorithms**
@@ -17,20 +18,53 @@ I'm passionate about building scalable full-stack web applications, solving real
 
 ---
 
+## 🌟 Featured Project
+
+### Fresh Bites – AI-Powered Food Delivery Platform
+
+An AI-powered full-stack food delivery platform built using the MERN stack with modern web technologies.
+
+**Key Features**
+
+- 🔐 JWT Authentication & Google Login
+- 🤖 AI Food Recommendation
+- 💬 AI Chatbot
+- 📝 AI Review Summarizer
+- 💳 Razorpay Payment Integration
+- 📦 Real-Time Order Tracking using Socket.io
+- 🎟️ Coupons & Offers
+- 📊 Admin Dashboard
+- 📧 Email Verification & Newsletter
+- 📱 Fully Responsive User Interface
+
+---
+
 ## 💻 Tech Stack
 
-- JavaScript
-- React.js
-- Node.js
-- Express.js
-- MongoDB
-- MySQL
-- Python
-- Java
-- C++
+### Frontend
 - HTML5
 - CSS3
+- JavaScript
+- React.js
 - Tailwind CSS
+- Bootstrap
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MongoDB
+- MySQL
+
+### Programming Languages
+- JavaScript
+- Python
+- Java
+- C
+- C++
+
+### Tools & Technologies
 - Git
 - GitHub
 - REST APIs
@@ -57,4 +91,4 @@ I'm passionate about building scalable full-stack web applications, solving real
 
 ---
 
-⭐ *Thank you for visiting my GitHub profile! Feel free to explore my repositories and connect with me.*
+⭐ **Thank you for visiting my GitHub profile! Feel free to explore my repositories and connect with me.**
