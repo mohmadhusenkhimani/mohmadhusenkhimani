@@ -2,7 +2,7 @@
 
 ### Full-Stack MERN Developer | MCA Student | Aspiring Software Development Engineer
 
-I'm passionate about building scalable full-stack web applications, solving real-world problems, and continuously improving my software engineering skills through projects, Data Structures & Algorithms, and Artificial Intelligence.
+I'm a Full-Stack MERN Developer and MCA student passionate about building scalable web applications and AI-powered solutions. I enjoy solving real-world problems through software development while continuously strengthening my skills in Data Structures & Algorithms, Artificial Intelligence, and modern web technologies.
 
 ---
 
@@ -10,10 +10,10 @@ I'm passionate about building scalable full-stack web applications, solving real
 
 - 🎓 MCA Student at **LJ University** (2025–2027)
 - 💼 MERN Stack Developer Intern at **Maxgen Technologies Pvt. Ltd.**
-- 💻 Full-Stack MERN Developer
-- 🤖 Learning **Artificial Intelligence & Machine Learning**
-- 📚 Practicing **Data Structures & Algorithms**
-- 🌱 Currently building **Fresh Bites – AI-Powered Food Delivery Platform**
+- 💻 Passionate about Full-Stack Web Development using the MERN Stack
+- 🤖 Currently learning **Artificial Intelligence, Machine Learning & Data Science**
+- 📚 Practicing **Data Structures & Algorithms** to strengthen problem-solving skills
+- 🌱 Building **Fresh Bites – AI-Powered Food Delivery Platform**
 - 🎯 Seeking **Software Development Engineer (SDE) Internship** opportunities
 
 ---
@@ -22,7 +22,18 @@ I'm passionate about building scalable full-stack web applications, solving real
 
 ### Fresh Bites – AI-Powered Food Delivery Platform
 
-An AI-powered full-stack food delivery platform built using the MERN stack with modern web technologies.
+An AI-powered full-stack food delivery platform built using the MERN stack with modern web technologies to deliver a seamless food ordering experience.
+
+**Tech Stack**
+
+- React.js
+- Node.js
+- Express.js
+- MongoDB
+- Socket.io
+- JWT Authentication
+- Razorpay
+- REST APIs
 
 **Key Features**
 
@@ -42,6 +53,7 @@ An AI-powered full-stack food delivery platform built using the MERN stack with 
 ## 💻 Tech Stack
 
 ### Frontend
+
 - HTML5
 - CSS3
 - JavaScript
@@ -50,14 +62,17 @@ An AI-powered full-stack food delivery platform built using the MERN stack with 
 - Bootstrap
 
 ### Backend
+
 - Node.js
 - Express.js
 
 ### Database
+
 - MongoDB
 - MySQL
 
 ### Programming Languages
+
 - JavaScript
 - Python
 - Java
@@ -65,6 +80,7 @@ An AI-powered full-stack food delivery platform built using the MERN stack with 
 - C++
 
 ### Tools & Technologies
+
 - Git
 - GitHub
 - REST APIs
@@ -75,13 +91,13 @@ An AI-powered full-stack food delivery platform built using the MERN stack with 
 
 ## 🌐 Portfolio
 
-🔗 https://mohmadhusenkhimani.vercel.app/
+🔗 **https://mohmadhusenkhimani.vercel.app/**
 
 ---
 
 ## 💼 LinkedIn
 
-🔗 https://www.linkedin.com/in/mohmadhusenkhimani/
+🔗 **https://www.linkedin.com/in/mohmadhusenkhimani/**
 
 ---
 
@@ -91,4 +107,4 @@ An AI-powered full-stack food delivery platform built using the MERN stack with 
 
 ---
 
-⭐ **Thank you for visiting my GitHub profile! Feel free to explore my repositories and connect with me.**
+⭐ Thank you for visiting my GitHub profile! Feel free to explore my repositories, check out my projects, and connect with me.
