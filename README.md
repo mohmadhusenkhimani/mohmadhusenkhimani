@@ -1,6 +1,6 @@
 Hi 👋, I'm Mohmadhusen Khimani
 
-Full-Stack MERN Developer | MCA Student | AI/ML Enthusiast
+Full-Stack MERN Developer | MCA Student | Aspiring Software Development Engineer
 
 I'm passionate about building scalable full-stack web applications and continuously improving my software engineering skills.
 
