@@ -56,12 +56,14 @@ import tailwind from './tailwind.png'
 import tailwind_dark from './tailwind_dark.png'
 import bootstrap from './bootstrap.png'
 import bootstrap_dark from './bootstrap_dark.png'
+import newhalfphoto from './newhalfphoto.png'
 
 export const assets = {
     user_image,
     user_image1,
     newphoto,
     newfullphoto,
+    newhalfphoto,
     code_icon,
     code_icon_dark,
     edu_icon,
