@@ -1,5 +1,7 @@
 import user_image from './user-image.png';
 import user_image1 from './user-image1.jpeg';
+import newphoto from './newphoto.png';
+import newfullphoto from './newfullimage.png';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -58,6 +60,8 @@ import bootstrap_dark from './bootstrap_dark.png'
 export const assets = {
     user_image,
     user_image1,
+    newphoto,
+    newfullphoto,
     code_icon,
     code_icon_dark,
     edu_icon,
@@ -113,33 +117,97 @@ export const assets = {
     bootstrap,
     bootstrap_dark
 };
-
 export const workData = [
-    {
-        title: 'Forever Shopping',
-        description: 'MERN Stack',
-        bgImage: '/work-1.png',
-        link: 'https://forever-frontend-weld-gamma.vercel.app/'
-    },
-    {
-        title: 'Dream IT HUB',
-        description: 'React & Tailwind CSS',
-        bgImage: '/work-2.png',
-        link: 'https://mohmadhusenkhimani.github.io/dreamithub/'
-    },
-    {
-        title: 'EKTA Enterprise',
-        description: 'JavaScript',
-        bgImage: '/work-3.png',
-        link: 'https://mohmadhusenkhimani.github.io/EKTA-ENTERPRISE/'
-    },
-    {
-        title: 'Aranoz Sofa',
-        description: 'Web Design',
-        bgImage: '/work-4.png',
-        link: 'https://mohmadhusenkhimani.github.io/Aranoz/'
-    },
-]
+  {
+    title: "Fresh Bites - AI-Powered Smart Food Ordering Platform",
+    description:
+      "AI-Powered Food Ordering Platform built with the MERN Stack featuring authentication, payments, order tracking, and admin management.",
+    bgImage: "/work-1.png",
+
+    category: "AI + MERN",
+
+    techStack: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "Razorpay",
+      "Google Auth"
+    ],
+
+    features: [
+      "AI Food Recommendations",
+      "Google Login",
+      "Email Verification",
+      "Order Tracking",
+      "Admin Dashboard"
+    ],
+
+    link: "https://github.com/mohmadhusenkhimani/fresh-bites-ai-food-ordering-platform",
+    github: "https://github.com/mohmadhusenkhimani/fresh-bites-ai-food-ordering-platform"
+  },
+
+  {
+    title: "Forever - Full-Stack MERN eCommerce Website",
+    description:
+      "Full-stack eCommerce platform with authentication, cart management, payment integration, and admin dashboard.",
+
+    bgImage: "/work-2.png",
+
+    category: "MERN Stack",
+
+    techStack: [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Express",
+      "Stripe",
+      "Razorpay"
+    ],
+
+    features: [
+      "Authentication",
+      "Shopping Cart",
+      "Online Payments",
+      "Order Management",
+      "Admin Panel"
+    ],
+
+    link: "https://github.com/mohmadhusenkhimani/forever-full-stack",
+    github: "https://github.com/mohmadhusenkhimani/forever-full-stack"
+  },
+  {
+    title: "Dream IT HUB - Professional Business Website",
+    description:
+      "Developed a professional business website using React.js and Tailwind CSS with a modern, responsive, and user-friendly interface.",
+
+    bgImage: "/work-3.png",
+
+    category: "Frontend",
+
+    techStack: [
+      "React",
+      "Tailwind CSS",
+      "JavaScript"
+    ],
+
+    features: [
+      "Responsive Design",
+      "Modern UI",
+      "SEO Friendly",
+      "Fast Performance",
+      "Secure Contact Forms",
+      "Cross-Browser Compatibility",
+      "Optimized User Experience (UX)"
+    ],
+
+    link: "https://mohmadhusenkhimani.github.io/dreamithub/",
+    github: "https://github.com/mohmadhusenkhimani/dreamithub"
+  },
+
+];
+
 
 export const serviceData = [
     { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
@@ -206,11 +274,11 @@ export const skillsData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, React JS, Next JS, Tailwind CSS, Bootstrap, MongoDB, MySQL' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'MCA - LJ University, Ahmedabad. (Pursuing) \n BCA - RK University, Rajkot (2022-2025)' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Dream-IT-HUB - React JS, Tailwind CSS \n E-Commerce - Developed using MERN Stack' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Experience', description: 'MERN Stack Developer Intern \n Maxgen Technologies Pvt. Ltd. \n Ahmedabad' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Master of Computer Applications \n LJ University \n 2025 - 2027 \n Bachelor of Computer Applications \n RK University \n 2020 - 2023 \n CGPA: 8.79' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Achievements', description: '15+ GitHub Repositories \n 20+ Certifications \n 2+ Full Stack Projects \n MERN Stack Internship' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.git, assets.firebase, assets.mongodb, assets.figma
 ];

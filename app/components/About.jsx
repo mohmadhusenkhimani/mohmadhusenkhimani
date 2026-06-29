@@ -16,7 +16,7 @@ const About = ({isDarkMode}) => {
              transition={{delay: 0.3, duration: 0.5}}
              className='text-center mb-2 text-lg font-Ovo'
            >
-             Introduction
+            Get To Know Me
            </motion.h4>
      
            <motion.h2
@@ -39,7 +39,7 @@ const About = ({isDarkMode}) => {
     whileInView={{opacity: 1, scale:1}}
     transition={{duration: 0.6}}
     className='w-64 sm:w-80 rounded-3xl max-w-none'>
-          <Image src={assets.user_image1} alt='user' className='w-full rounded-3xl' />
+          <Image src={assets.newfullphoto} alt='user' className='w-full rounded-3xl' />
         </motion.div>
 
         <motion.div 
@@ -47,7 +47,13 @@ const About = ({isDarkMode}) => {
     whileInView={{opacity: 1}}
     transition={{duration: 0.6, delay: 0.8}}
     className='flex-1'>
-          <p className='mb-10 max-w-2xl font-ovo'>I completed my BCA from RK University, Rajkot, and I am currently pursuing my MCA at LJ University, Ahmedabad. Alongside my studies, I am gaining hands-on experience in MERN Stack development through training at Maxgen Technologies.</p>
+          <p className='mb-10 max-w-2xl font-ovo'>Hello! I'm Mohmadhusen Khimani, an MCA student at LJ University and a passionate Full Stack MERN Developer with hands-on experience in building scalable, responsive, and user-centric web applications.
+
+I specialize in developing modern applications using MongoDB, Express.js, React.js, Node.js, JavaScript, Next.js, and REST APIs. My experience includes authentication systems, eCommerce platforms, admin dashboards, payment gateway integration, and AI-powered applications.
+
+Beyond web development, I am actively learning Artificial Intelligence, Machine Learning, Data Science, and Data Structures & Algorithms to become a well-rounded Software Development Engineer (SDE).
+
+Currently, I am working as a MERN Stack Developer Intern at Maxgen Technologies while continuously building real-world projects, improving my problem-solving skills, and preparing for software engineering opportunities.</p>
           <motion.ul 
     initial={{opacity: 0}}
     whileInView={{opacity: 1}}
@@ -55,7 +61,7 @@ const About = ({isDarkMode}) => {
     className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
             {infoList.map(({ icon, iconDark, title, description }, index) => (
               <motion.li 
-    whileInView={{scale: 1.05}}
+    whileInView={{y: -8, scale: 1.03}}
     className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50' key={index}>
                 <Image src={ isDarkMode ? iconDark : icon} alt={title} className='w-7 mt-3' />
                 <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>{title}</h3>
@@ -67,7 +73,7 @@ const About = ({isDarkMode}) => {
     initial={{y: 20, opacity: 0}}
     whileInView={{y: 0, opacity: 1}}
     transition={{duration: 1.3, duration: 0.5}}
-    className='my-6 text-gray-700 font-Ovo dark:text-white/80'>Tools I use</motion.h4>
+    className='my-6 text-gray-700 font-Ovo dark:text-white/80'>Development Tools</motion.h4>
           <motion.ul 
     initial={{opacity: 0}}
     whileInView={{opacity: 1}}
@@ -75,7 +81,7 @@ const About = ({isDarkMode}) => {
     className='flex items-center gap-3 sm:gap-5'> 
             {toolsData.map((tool,index)=>(
               <motion.li 
-              whileHover={{scale: 1.05}}
+              whileHover={{scale: 1.04, rotate: -2}}
               className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500' key={index}>
                 <Image src={tool} alt='Tool' className='w-5 sm:w-7'/>
               </motion.li>

@@ -1,53 +1,139 @@
-import { assets } from '@/assets/assets'
-import { motion } from "motion/react"
-import Image from 'next/image'
-import React from 'react'
+
+import { assets } from "@/assets/assets";
+import { motion } from "motion/react";
+import Image from "next/image";
+import React from "react";
 
 const Header = () => {
   return (
-    <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4'>
-      <motion.div
-      initial={{scale: 0}}
-      whileInView={{scale: 1}}
-      transition={{duration: 0.8, type: 'spring',stiffness: 100}}
-      >
-      <Image src={assets.profile_img1} alt='' className='rounded-full w-32'/>
-      
-      </motion.div>
-      <motion.h3 
-      initial={{y: -20, opacity: 0}}
-      whileInView={{y: 0, opacity:1}}
-      transition={{duration: 0.6,delay: 0.3}}
-      className='flex items-end gap-2 text-xl md:text-2xl mb-3'>Hi! I'm Mohmadhusen Khimani <Image src={assets.hand_icon} alt='' className='w-6'/> </motion.h3>
-      <motion.h1 
-      initial={{y: -30, opacity: 0}}
-      whileInView={{y: 0, opacity:1}}
-      transition={{duration: 0.8,delay: 0.5}}
-      className="text-4xl sm:text-6xl md:text-7xl font-bold leading-tight text-center tracking-tight">
-  Frontend Developer <br />
-  <span className="text-gray-600">React & Modern UI</span>
-</motion.h1>
-      <motion.p 
-      initial={{opacity: 0}}
-      whileInView={{opacity:1}}
-      transition={{duration: 0.6,delay: 0.7}}
-      className='max-w-2xl mx-auto font-Ovo'>Frontend Developer with hands-on experience in real projects, building responsive and interactive web applications.</motion.p>
-      <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
+    <section className="w-full min-h-screen flex items-center justify-center px-6 sm:px-8 lg:px-12">
+      <div className="max-w-5xl mx-auto text-center flex flex-col items-center">
 
-        <motion.a 
-      initial={{y: 30, opacity: 0}}
-      whileInView={{y: 0, opacity:1}}
-      transition={{duration: 0.6,delay: 1}}
-      href="#contact" className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'>Contact me <Image src={assets.right_arrow_white} alt='' className='w-4'/></motion.a>
+        {/* Profile Image */}
+        <motion.div
+          initial={{ scale: 0 }}
+          whileInView={{ scale: 1 }}
+          whileHover={{
+            scale: 1.05,
+            rotate: -2,
+          }}
+          transition={{
+            duration: 0.8,
+            type: "spring",
+            stiffness: 100,
+          }}
+          viewport={{ once: true }}
+        >
+          <Image
+            src={assets.newphoto}
+            alt="Mohmadhusen Khimani"
+            className="rounded-full w-32 sm:w-36 md:w-40 lg:w-44 border-4 border-white shadow-2xl"
+          />
+        </motion.div>
 
-        <motion.a 
-      initial={{y: 30, opacity: 0}}
-      whileInView={{y: 0, opacity:1}}
-      transition={{duration: 0.6,delay: 1.2}}
-      href="/resume.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 dark:bg-white dark:text-black'>my resume <Image src={assets.download_icon} alt='' className='w-4'/></motion.a>
+        {/* Greeting */}
+        <motion.h3
+          initial={{ y: -20, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.3, duration: 0.5 }}
+          viewport={{ once: true }}
+          className="flex flex-wrap justify-center items-center gap-2 text-lg sm:text-xl md:text-2xl mt-6"
+        >
+          Hi, I'm Mohmadhusen Khimani
+          <Image
+            src={assets.hand_icon}
+            alt="wave"
+            className="w-5 sm:w-6"
+          />
+        </motion.h3>
+
+        {/* Heading */}
+        <motion.h1
+          initial={{ y: -30, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.5, duration: 0.7 }}
+          viewport={{ once: true }}
+          className="mt-4 font-bold leading-tight tracking-tight"
+        >
+          <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+            Full Stack MERN
+          </span>
+
+          <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+            Developer
+          </span>
+
+          <span className="block mt-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl text-indigo-600 dark:text-indigo-400 font-semibold">
+            AI & Machine Learning Enthusiast
+          </span>
+        </motion.h1>
+
+        {/* Internship Badge */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.7 }}
+          viewport={{ once: true }}
+          className="mt-6"
+        >
+          <span className="px-4 py-2 rounded-full bg-green-100 text-green-700 dark:bg-green-900/40 dark:text-green-300 text-sm font-medium">
+            🟢 Available for SDE Internships
+          </span>
+        </motion.div>
+
+        {/* Description */}
+        <motion.p
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.8, duration: 0.6 }}
+          viewport={{ once: true }}
+          className="max-w-3xl mt-6 text-base sm:text-lg leading-7 text-gray-700 dark:text-gray-300"
+        >
+          I'm an MCA student and Full Stack MERN Developer passionate about
+          building scalable, responsive, and user-centric web applications.
+          I specialize in React.js, Node.js, Express.js, MongoDB, REST APIs,
+          and modern frontend technologies while actively expanding my expertise
+          in Artificial Intelligence, Machine Learning, Data Structures &
+          Algorithms, and Software Development.
+        </motion.p>
+
+        {/* Buttons */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 1 }}
+          viewport={{ once: true }}
+          className="flex flex-col sm:flex-row items-center gap-4 mt-8"
+        >
+          <a
+            href="#contact"
+            className="px-8 py-3 rounded-full bg-black text-white border border-black flex items-center gap-2 hover:scale-105 transition-all duration-300 dark:bg-transparent dark:border-white"
+          >
+            Contact Me
+            <Image
+              src={assets.right_arrow_white}
+              alt=""
+              className="w-4"
+            />
+          </a>
+
+          <a
+            href="/resume.pdf"
+            download
+            className="px-8 py-3 rounded-full border border-gray-500 flex items-center gap-2 hover:scale-105 transition-all duration-300 dark:bg-white dark:text-black"
+          >
+            Download Resume
+            <Image
+              src={assets.download_icon}
+              alt=""
+              className="w-4"
+            />
+          </a>
+        </motion.div>
+
       </div>
-    </div>
-  )
-}
+    </section>
+  );
+};
 
-export default Header
+export default Header;
