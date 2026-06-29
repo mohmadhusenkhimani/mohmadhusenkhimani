@@ -3,7 +3,7 @@
 ### Full-Stack MERN Developer | MCA Student | Aspiring Software Development Engineer
 
 I'm a Full-Stack MERN Developer and MCA student passionate about building scalable, high-performance web applications that solve real-world problems. I specialize in React.js, Node.js, Express.js, MongoDB, and JavaScript, with experience integrating AI-powered features into modern applications. I'm continuously expanding my expertise in Data Structures & Algorithms, Artificial Intelligence, and software engineering while seeking opportunities to contribute to impactful products.
----
+
 
 ## 🚀 About Me
 
