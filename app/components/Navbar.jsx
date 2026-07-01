@@ -7,10 +7,12 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
     const sideMenuRef = useRef();
 
     const openMenu = () => {
-        sideMenuRef.current.style.transform = 'translateX(-16rem)'
+        // sideMenuRef.current.style.transform = 'translateX(-16rem)'
+        sideMenuRef.current.style.transform = 'translateX(0)'
     }
     const closeMenu = () => {
-        sideMenuRef.current.style.transform = 'translateX(16rem)'
+        // sideMenuRef.current.style.transform = 'translateX(16rem)'
+        sideMenuRef.current.style.transform = 'translateX(100%)'
     }
 
     useEffect(()=>{
@@ -25,6 +27,7 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
     },[])
   return (
     <>
+    
     <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%] dark:hidden'>
         <Image src={assets.header_bg_color} alt='' className='w-full'/>
     </div>
