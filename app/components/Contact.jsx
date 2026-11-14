@@ -166,7 +166,7 @@ const Contact = ({ isDarkMode }) => {
           </h3>
 
           <a
-            href="https://www.linkedin.com/in/mohmadhusen-khimani"
+            href="https://www.linkedin.com/in/mohmadhusenkhimani"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="View Mohmadhusen Khimani LinkedIn profile"
