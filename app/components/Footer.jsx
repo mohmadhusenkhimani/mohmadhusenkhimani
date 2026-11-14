@@ -1,3 +1,4 @@
+
 "use client";
 
 import React from "react";
@@ -41,6 +42,7 @@ const Footer = () => {
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
     { name: "Experience", href: "#experience" },
+    { name: "Services", href: "#services" },
     { name: "Projects", href: "#work" },
     { name: "Contact", href: "#contact" },
   ];
